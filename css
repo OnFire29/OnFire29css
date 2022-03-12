@@ -47,7 +47,7 @@ body {
 }
 
 /* Animations */
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
   }
