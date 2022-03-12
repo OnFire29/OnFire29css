@@ -87,11 +87,11 @@ body {
 /* Stream */
 .live-streams {
 	opacity: 0;
-	transition-duration: 0.5s;
+	transition-duration: 0.4s;
 }
 
 .live-streams:hover {
-	opacity: 1;
+	opacity: 2;
 }
 
 /* OPTIONS */
@@ -105,28 +105,28 @@ body {
 
 /* Hub */
  #left-icons > div:nth-child(1) > div:nth-child(1) > div{
-     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949002745686417479/globe-12150.png) !important;
+     content: url(https://cdn.discordapp.com/attachments/727174388126056469/952308753531822150/globe-12150.png) !important;
      width: 70px;
 	
 }
 /* Store */
  #left-icons > div:nth-child(1) > div:nth-child(2) > div{
-     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949002432791330857/store-1068.png) !important;
+     content: url(https://cdn.discordapp.com/attachments/727174388126056469/952308754597171280/store-1068.png) !important;
      width: 70px;
 }
 /* Servers */
  #left-icons > div:nth-child(1) > div:nth-child(3) > div{
-     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949002454391992350/game-controller-1396.png) !important;
+     content: url(https://cdn.discordapp.com/attachments/727174388126056469/952308753724735558/game-controller-1396.png) !important;
      width: 70px;
 }
 /* Map */
  #left-icons > div:nth-child(1) > div:nth-child(4) > div{
-     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949001621336104990/maps-location-11100.png) !important;
+     content: url(https://cdn.discordapp.com/attachments/727174388126056469/952308754123206686/maps-location-11100.png) !important;
      width: 70px;
 }
 /* News */
  #left-icons > div:nth-child(2) > div{
-     content: url(https://cdn.discordapp.com/attachments/947597952220807251/949001925511241788/news-4301_3.png) !important;
+     content: url(https://cdn.discordapp.com/attachments/727174388126056469/952308754349703188/news-4301_3.png) !important;
      width: 70px;
 }
 
@@ -557,12 +557,12 @@ body {
 .inventory .bottom {
 	background: transparent !important;
   	backdrop-filter: blur(2px) !important;
-  	background-image: linear-gradient(to left, rgba(246, 255, 0, 0), #e2e04f1c) !important;
+  	background-image: linear-gradient(to left, rgb(246, 255, 0, 0), aqua) !important;
 }
 
 /* End Game Screen */
 .end-modal {
-	background: url(https://i.pinimg.com/originals/cd/47/51/cd4751344dffb2b8ee6ad2a31f2b3e7e.jpg) !important;
+	background: url(https://wallpaperaccess.com/full/13189.jpg) !important;
 }
 
 .end-modal .content {
@@ -585,7 +585,7 @@ body {
 }
 
 .hp-progress {
-	background: aqua !important;
+	background: yellow !important;
 }
 
 .state {
@@ -612,7 +612,9 @@ body {
 	display: inline-block;
     position: fixed;
     left: calc(38% + 188px);
-}
+  }
+    
+
 
 .kill-death {
 	position: fixed;
@@ -654,13 +656,13 @@ body {
 }
 
 .heads .levels {
-	color: aqua !important;
+	color: aquamarine !important;
 }
 
 .heads .clan-tag {
-	-webkit-animation: glow 2s ease-in-out infinite alternate;
-	-moz-animation: glow 2s ease-in-out infinite alternate;
-	animation: glow 2s ease-in-out infinite alternate;
+	-webkit-animation: glow 3s ease-in-out infinite alternate;
+	-moz-animation: glow 3s ease-in-out infinite alternate;
+	animation: glow 3s ease-in-out infinite alternate;
 }
 
 .card-profile {
@@ -713,10 +715,10 @@ body {
 
 
 img.top-logo {
-  content: url(https://cdn.discordapp.com/attachments/947597952220807251/948264183898705920/loadbordertop.png) !important;
+  content: url(https://cdn.discordapp.com/attachments/727174388126056469/952305479365845032/loadbordertop.png) !important;
 }
 img.bottom-logo {
-  content: url(https://cdn.discordapp.com/attachments/947597952220807251/948264511440289822/loadborderbottom.png) !important;
+  content: url(https://cdn.discordapp.com/attachments/727174388126056469/952305479718146098/loadborderbottom.png) !important;
 }
 
 .desktop-game-interface[data-v-6a4c5c6d]::after {
@@ -735,14 +737,14 @@ img.bottom-logo {
 /*  TEAMS   */
 .red,
 .red-team {
-  background: var(--baseColor) !important;
+  background: var(red) !important;
   border: 2px solid var(--accentColor);
   box-shadow: none !important;
 }
 
 .blue,
 .blue-team {
-  background: var(--baseColor) !important;
+  background: var(blue) !important;
   border: 2px solid var(--accentCompliment);
   box-shadow: none !important;
 }
@@ -764,7 +766,7 @@ img.bottom-logo {
 
 /*  INFO CSS   */
 .play:before {
-	content: "CSS modified by OnFire29 (Micropenia)";
+	content: "CSS modified by OnFire29 (CULT)";
 	margin-right: 30px;
 	-webkit-animation: glow 2s ease-in-out infinite alternate;
 	-moz-animation: glow 2s ease-in-out infinite alternate;
